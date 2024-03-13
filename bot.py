@@ -16,7 +16,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.utils import executor
 import aiohttp
-TOKEN = '5941668474:AAHxfY0HOyM3CSMfXjyAw1yAJkbo5wm6t-Y'
+TOKEN = 'Your-TOKEN'
 API_ENDPOINT_APPOINTMENT = 'http://127.0.0.1:8000/api/make_appointment'
 API_ENDPOINT_CHECK_USER = 'http://127.0.0.1:8000/api/check_user'
 
