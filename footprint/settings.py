@@ -144,9 +144,9 @@ EMAIL_HOST = 'smtp.mail.ru'
 EMAIL_PORT = 465
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
-EMAIL_HOST_USER = 'muk888@mail.ru'  # Ваш адрес электронной почты на Mail.ru
-EMAIL_HOST_PASSWORD = '6vMEph9MFZvpjxkNwSun'   # Пароль от вашего почтового ящика
-DEFAULT_FROM_EMAIL = 'muk888@mail.ru'
+EMAIL_HOST_USER = 'EMAIL'  # Ваш адрес электронной почты на Mail.ru
+EMAIL_HOST_PASSWORD = 'Password'   # Пароль от вашего почтового ящика
+DEFAULT_FROM_EMAIL = 'EMAIL'
 
 AUTHENTICATION_BACKENDS = ['users.backends.EmailBackend']
 
